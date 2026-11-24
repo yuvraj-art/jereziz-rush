@@ -1,0 +1,57 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> rail-rush-web@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ concurrent audio unlocks share decoding and resume during the gesture (9.847361ms)
+✔ board states never use the running-feet animation (1.924649ms)
+✔ jetpack has priority over board, boots, roll and airborne fall (0.391243ms)
+✔ sneaker running and ability expiry return to the correct pose (0.226317ms)
+✔ fast run yields to jumps, rolls, lane changes and powered movement (0.247469ms)
+✔ shared 10-second travel vector (28.908605ms)
+✔ jump vector and bounded linear lane transition (4.619154ms)
+✔ roll clears overhead, standing crashes and jump clears low barrier (2.452325ms)
+✔ actual lane X drives side collisions (1.000101ms)
+✔ swept collision cannot skip narrow barrier at high speed (0.487156ms)
+✔ runner leaves the roof at the end of a train (2.967072ms)
+✔ coin normal, magnet, and jetpack pickup (7.589215ms)
+✔ power refresh, expiry, pause and independent stacking (24.331696ms)
+✔ jetpack expiry grants safe falling transition (15.081197ms)
+✔ hoverboard consumes inventory, absorbs one crash, expires normally (22.431802ms)
+✔ run settlement occurs exactly once; restart clears active effects (0.233559ms)
+✔ shop, boards and one-time missions use earned currency (0.391424ms)
+✔ invalid persisted data sanitized (0.18776ms)
+✔ fair seeded route leaves a lane free every row (1.135132ms)
+✔ 20-minute simulation has bounded entities and stable repeated reset (721.932002ms)
+✔ multiplier expiry never reduces earned score (5.368652ms)
+✔ jetpack lane transition is slower; repeated boundary input does not block a valid swipe (0.397592ms)
+✔ minimum lane travel rejects same-frame second swipe; airborne roll dives (0.375159ms)
+✔ grounded jump grace permits a short ledge departure but no second air jump (0.2478ms)
+✔ native-derived lane spacing and speed-adjusted duration (0.190885ms)
+✔ native lane reversal uses lateral gate and constant-speed partial return (0.717435ms)
+✔ magnet pulls across both outer lanes, freezes in pause, credits arrival once (8.890345ms)
+✔ magnet flights survive expiry, settle during collision, and reset cleanly (0.446115ms)
+✔ jetpack stays on the upper back in standing, prone and banked poses (1.489921ms)
+✔ alignment preserves width, height, depth and uniform source scale (2.008414ms)
+✔ unused source vertices do not enlarge the obstacle or separate its ramp (0.714725ms)
+✔ a marker submesh without a bound material is excluded from visible bounds (0.319196ms)
+✔ spawned route uses model depth and has no climb-on attachments (8.953845ms)
+✔ collision and roof support follow the uncompressed train height (8.593137ms)
+✔ jump barrier collision follows its full height and roll clearance stays playable (6.873209ms)
+✔ first installation does not force a reload or race update() (3.322081ms)
+✔ a newer worker reloads an already controlled page exactly once (0.447537ms)
+✔ offline registration failure leaves the cached game alone (1.807594ms)
+✔ a cached old entry does not hide a newer online build (9.090618ms)
+✔ navigation still loads the saved entry when offline (2.105768ms)
+✔ a failed server response falls back to the saved game (1.872801ms)
+✔ camera blend and track speed join the menu and running state continuously (3.291946ms)
+✔ pausing halfway through startup preserves the camera and character transition (1.013711ms)
+✔ web startup can finish the recovered intro clip before running (1.222182ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1296.991327

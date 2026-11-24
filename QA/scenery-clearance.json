@@ -1,0 +1,26 @@
+{
+  "01_Venom_Sanctum.glb": {
+    "trianglesExamined": 53301,
+    "laneIntrusions": []
+  },
+  "02_Venom_Abyssal_Dock.glb": {
+    "trianglesExamined": 82451,
+    "laneIntrusions": []
+  },
+  "03_Jester_Court.glb": {
+    "trianglesExamined": 68150,
+    "laneIntrusions": []
+  },
+  "04_Jester_After_Dark.glb": {
+    "trianglesExamined": 74830,
+    "laneIntrusions": []
+  },
+  "05_Dentist_Enamel_Ward.glb": {
+    "trianglesExamined": 35340,
+    "laneIntrusions": []
+  },
+  "06_Dentist_Ortho_Lab.glb": {
+    "trianglesExamined": 36482,
+    "laneIntrusions": []
+  }
+}
